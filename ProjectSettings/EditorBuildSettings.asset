@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Task3/Lesson3.unity
     guid: 848c2fd8ef83c4350be7bb102102b5d7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Project1/Project1.unity
     guid: 8bc59175d59d64e5fb7102258731b80e
   m_configObjects: {}
