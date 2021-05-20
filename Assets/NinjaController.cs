@@ -22,21 +22,21 @@ public class NinjaController : MonoBehaviour
         charController.Move(Vector3.down * accelDown * Time.deltaTime);
         animator.SetFloat("vertical", 0);
         animator.SetFloat("horizontal", 0);
-        if (Input.GetKey(KeyCode.I))
+        if (Input.GetKey(KeyCode.W))
         {
             animator.SetFloat("vertical", 1);
-        }else if (Input.GetKey(KeyCode.M))
+        }else if (Input.GetKey(KeyCode.S))
         {
             animator.SetFloat("vertical", -1);
         }
 
-        if (Input.GetKey(KeyCode.J))
+        if (Input.GetKey(KeyCode.A))
         {
             animator.SetFloat("horizontal", -1);
-        }else if (Input.GetKey(KeyCode.L))
+        }else if (Input.GetKey(KeyCode.D))
         {
             animator.SetFloat("horizontal", 1);
         }
-        
+
     }
 }
